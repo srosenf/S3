@@ -64,5 +64,13 @@
     "recordLog": {
         "enabled": false,
         "recordLogName": "s3-recordlog"
+    },
+    "mongodb": {
+	"host": "localhost",
+	"port": 27017,
+	"database": "metadata"
+    },
+    "log": {
+	"logLevel": "trace"
     }
 }
