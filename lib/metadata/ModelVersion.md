@@ -72,6 +72,7 @@ and to store CORS rules to apply to cross-domain requests
 ## Model version 6
 
 ### Properties Added
+
 ```javascript
 this._lifecycleConfiguration = lifecycleConfiguration || null;
 ```
