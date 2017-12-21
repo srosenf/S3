@@ -55,6 +55,9 @@ const replicationUtils = {
         'STANDARD_IA',
         'REDUCED_REDUNDANCY',
     ],
+    validMultipleStorageClasses: [
+        'us-east-1,us-east-2',
+    ],
 };
 
 module.exports = replicationUtils;
