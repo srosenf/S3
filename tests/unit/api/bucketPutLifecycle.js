@@ -1,5 +1,4 @@
 const assert = require('assert');
-const { parseString } = require('xml2js');
 
 const { bucketPut } = require('../../../lib/api/bucketPut');
 const bucketPutLifecycle = require('../../../lib/api/bucketPutLifecycle');
@@ -96,7 +95,7 @@ const expectedLifecycleConfig = {
     ],
 };
 
-describe.only('putBucketLifecycle API', () => {
+describe('putBucketLifecycle API', () => {
     before(() => cleanup());
     beforeEach(done => bucketPut(authInfo, testBucketPutRequest, log, done));
     afterEach(() => cleanup());
